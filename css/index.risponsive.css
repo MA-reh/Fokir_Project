@@ -1,0 +1,571 @@
+@media (max-width: 1300px) {
+
+    nav .container {
+        width: 90%;
+    }
+
+    nav div.part {
+        width: 30%;
+    }
+
+    nav div.part:last-child {
+        width: 40%;
+
+    }
+
+    nav div.part img {
+        width: 50%;
+        height: 100%;
+    }
+
+    nav div.part ul {
+        display: none;
+    }
+
+    nav div.part .bars {
+        display: flex;
+        justify-self: end;
+        margin-right: 10px;
+    }
+
+    nav .part2 {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 90%;
+        background-color: #333;
+        border-radius: 10px;
+        padding: 0;
+        height: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    nav .part2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        list-style: none;
+        gap: 15px;
+    }
+
+    nav .part2 ul li a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        transition-duration: .5s;
+        font-size: 15px;
+    }
+
+
+    /* Header */
+
+    header .imgSlider .content h3 {
+        font-size: 1.3rem;
+    }
+
+    header .imgSlider .content h1 {
+        font-size: 2.8rem;
+        color: var(--main-color);
+        margin-block: 10px;
+        font-weight: 600;
+    }
+
+    header .imgSlider .content p {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    /* About */
+    section#About .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #About .part:nth-of-type(1) {
+        width: 85%;
+        margin-bottom: 40px;
+    }
+
+    #About .part:nth-of-type(1) .frame .image .outline ul {
+        gap: 15px;
+    }
+
+    #About .part:nth-of-type(2) {
+        width: 100%;
+    }
+
+    #About .part:nth-of-type(2) h2 {
+        padding: 0 0px 0 10px;
+        font-size: 25px;
+    }
+
+
+    #About .part:nth-of-type(2) .parts {
+        width: 100%;
+    }
+
+    #About .part:nth-of-type(2) .btns button {
+        padding: 10px 15px;
+    }
+
+    /* Services */
+
+    #Services .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Services .col {
+        width: calc(100%/1);
+        padding: 20px 0px;
+        border-radius: 10px;
+        border: 1px solid var(--main-color);
+        margin-bottom: 10px;
+    }
+
+    /* Portfolio */
+    #Portfolio .container cards {
+        width: calc(100% / 1);
+    }
+
+    /* Blog */
+
+    #Blog .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Blog .container .slide {
+        width: calc(100% / 1);
+    }
+
+
+    /* Contact Us */
+
+    #ContactUs .container {
+        width: 100%;
+    }
+
+    #ContactUs .container .form {
+        width: 80%;
+    }
+
+    #ContactUs .container .form form input:nth-of-type(1),
+    #ContactUs .container .form form input:nth-of-type(2) {
+        width: calc(100%);
+        display: inline-block;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    footer p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    nav div.part {
+        width: 35%;
+    }
+
+    nav div.part:last-child {
+        width: 20%;
+
+    }
+
+    nav div.part img {
+        width: 35%;
+        height: 100%;
+    }
+
+    /* Header */
+
+    header .imgSlider .content h3 {
+        font-size: 1.5rem;
+    }
+
+    header .imgSlider .content h1 {
+        font-size: 3.5rem;
+        color: var(--main-color);
+        margin-block: 10px;
+        font-weight: 600;
+    }
+
+    header .imgSlider .content p {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    /* About */
+
+    #About .part:nth-of-type(2) .parts {
+        width: 50%;
+    }
+
+    #About .part:nth-of-type(2) .btns button {
+        padding: 15px 20px;
+    }
+
+    /* Services */
+    #Services .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Services .col {
+        width: calc(90%/1);
+        padding: 20px 0px;
+        border-radius: 10px;
+        border: 1px solid var(--main-color);
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    nav div.part img {
+        width: 25%;
+        height: 100%;
+    }
+
+    /* Services */
+    #Services .container {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #Services .col {
+        width: calc(120%/3);
+        padding: 20px 0px;
+        border-radius: 10px;
+        border: 1px solid var(--main-color);
+        margin-bottom: 10px;
+    }
+
+
+    #Portfolio .container cards {
+        width: calc(100% / 2);
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+
+    /* NavBar */
+    nav .container {
+        width: 90%;
+    }
+
+    nav div.part {
+        width: 20%;
+    }
+
+    nav div.part:last-child {
+        width: 55%;
+    }
+
+    nav div.part img {
+        width: 30%;
+        height: 100%;
+    }
+
+    nav div.part ul {
+        display: none;
+
+    }
+
+    nav div.part ul li a {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    nav div.part .bars {
+        display: flex;
+
+    }
+
+    nav .part2 {
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 70%;
+        background-color: #333;
+        border-radius: 10px;
+        padding: 0;
+        height: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    nav .part2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        list-style: none;
+        gap: 15px;
+    }
+
+    nav .part2 ul li a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        transition-duration: .5s;
+        font-size: 15px;
+    }
+
+
+
+    /* Header */
+
+    header .imgSlider .content h3 {
+        font-size: 1.5rem;
+    }
+
+    header .imgSlider .content h1 {
+        font-size: 4.2rem;
+    }
+
+    header .imgSlider .content p {
+        font-size: 20px;
+    }
+
+
+    /* About */
+    section#About .container {
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+        gap: 20px;
+    }
+
+    #About .part:nth-of-type(1) .frame {
+        width: 85%;
+    }
+
+
+    #About .part:nth-of-type(1) {
+        width: 50%;
+    }
+
+    #About .part:nth-of-type(2) {
+        width: 50%;
+    }
+
+    /* Services */
+
+    #Services .container {
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* Blog */
+    #Blog .container {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #Blog .container .slide {
+        width: calc(100% / 2);
+    }
+
+
+    /* Contact Us */
+
+    #ContactUs .container {
+        width: 90%;
+    }
+
+    #ContactUs .container .form {
+        width: 80%;
+    }
+
+    #ContactUs .container .form form input:nth-of-type(1),
+    #ContactUs .container .form form input:nth-of-type(2) {
+        width: calc(50% - 7.5px);
+        display: inline-block;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    footer p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+
+
+    /* NavBar */
+    nav .container {
+        width: 85%;
+    }
+
+    nav div.part {
+        width: 20%;
+    }
+
+    nav div.part:last-child {
+        width: 50%;
+    }
+
+    nav div.part img {
+        width: 30%;
+        height: 100%;
+    }
+
+    nav div.part ul {
+        display: flex;
+    }
+
+    nav div.part ul li a {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    nav div.part .bars {
+        display: none;
+    }
+
+    nav .part2 {
+        display: none;
+    }
+
+    /* Header */
+
+    header .imgSlider .content h3 {
+        font-size: 1.85rem;
+    }
+
+    header .imgSlider .content h1 {
+        font-size: 5rem;
+    }
+
+    header .imgSlider .content p {
+        font-size: 22px;
+    }
+
+    #About .container {
+        width: 80%;
+    }
+
+    #About .part:nth-of-type(1) .frame {
+        width: 70%
+    }
+
+    /* Services */
+    #Services .container {
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #Services .col {
+        width: calc(100%/4);
+        padding: 20px 0px;
+        border-radius: 10px;
+        border: 1px solid var(--main-color);
+        margin-bottom: 10px;
+    }
+
+    #Portfolio .container cards {
+        width: calc(100% / 3);
+    }
+
+    /* Blog */
+    #Blog .container .slide {
+        width: calc(100% / 3);
+    }
+
+    #Blog .container .slide:nth-of-type(2) .card .content:nth-of-type(1) {
+        height: 144px;
+        width: 100%;
+    }
+
+    #ContactUs .container {
+        width: 80%;
+    }
+
+    #ContactUs .container .form {
+        width: 80%;
+    }
+
+    #ContactUs .container .form form input:nth-of-type(1),
+    #ContactUs .container .form form input:nth-of-type(2) {
+        width: calc(50% - 7.5px);
+        display: inline-block;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: #333333;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    footer p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    nav div.part {
+        width: 20%;
+    }
+
+    nav div.part:last-child {
+        width: 45%;
+    }
+
+    #Blog .container .slide:nth-of-type(2) .card .content:nth-of-type(1) {
+        height: 175px;
+        width: 100%;
+    }
+
+    #Blog .container .slide:nth-of-type(2) .card .content:nth-of-type(2) a {
+        margin-top: 12.5px;
+    }
+
+
+}

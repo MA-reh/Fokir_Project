@@ -1,0 +1,65 @@
+@keyframes typing {
+    0% {
+        content: " |";
+    }
+
+    10% {
+        content: "D |";
+    }
+
+    20% {
+        content: "De |";
+    }
+
+    30% {
+        content: "Des |";
+    }
+
+    40% {
+        content: "Desi |";
+    }
+
+    50% {
+        content: "Desig |";
+    }
+
+    60% {
+        content: "Design |";
+    }
+
+    70% {
+        content: "Designe |";
+    }
+
+    80% {
+        content: "Designer |";
+    }
+
+    90% {
+        content: "Designer |";
+    }
+
+    100% {
+        content: "Designer |";
+    }
+}
+
+@keyframes btnSlider {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    70% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+}
