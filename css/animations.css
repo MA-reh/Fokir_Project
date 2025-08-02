@@ -1,0 +1,61 @@
+@keyframes typing {
+    0% {
+        content: " |";
+    }
+
+    20% {
+        content: "D |";
+    }
+
+    30% {
+        content: "De |";
+    }
+
+    40% {
+        content: "Des |";
+    }
+
+    50% {
+        content: "Desi |";
+    }
+
+    60% {
+        content: "Desig |";
+    }
+
+    70% {
+        content: "Design |";
+    }
+
+    80% {
+        content: "Designe |";
+    }
+
+    90% {
+        content: "Designer |";
+    }
+
+    100% {
+        content: "Designer |";
+    }
+}
+
+@keyframes btnSlider {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    70% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 50%;
+        opacity: 0;
+    }
+}
