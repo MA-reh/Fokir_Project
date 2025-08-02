@@ -348,42 +348,6 @@
 
     }
 
-    nav .part2 {
-        position: absolute;
-        top: 110%;
-        left: 50%;
-        transform: translate(-50%);
-        width: 70%;
-        background-color: #333;
-        border-radius: 10px;
-        padding: 0;
-        height: auto;
-        overflow: hidden;
-        display: block;
-    }
-
-    nav .part2 ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding: 10px;
-        list-style: none;
-        gap: 15px;
-    }
-
-    nav .part2 ul li a {
-        color: #fff;
-        text-decoration: none;
-        letter-spacing: 1.5px;
-        font-weight: 500;
-        transition-duration: .5s;
-        font-size: 15px;
-    }
-
-
-
     /* Header */
 
     header .imgSlider .content h3 {
@@ -642,6 +606,7 @@
     #Blog .container .slide:nth-of-type(2) .card .content:nth-of-type(2) a {
         margin-top: 12.5px;
     }
+
 
 
 }
