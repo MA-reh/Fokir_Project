@@ -1,14 +1,17 @@
 @media (max-width: 1300px) {
     nav .container {
         width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     nav div.part {
         width: 30%;
     }
 
-    nav div.part:last-child {
-        width: 40%;
+    nav div.part:nth-child(2) {
+        width: 15%;
     }
 
     nav div.part img {
@@ -22,7 +25,7 @@
 
     nav div.part .bars {
         display: flex;
-        justify-self: end;
+        /* justify-self: end; */
         margin-right: 10px;
     }
 
@@ -176,7 +179,7 @@
         width: 35%;
     }
 
-    nav div.part:last-child {
+    nav div.part:nth-child(2) {
         width: 20%;
 
     }
@@ -315,7 +318,7 @@
         width: 20%;
     }
 
-    nav div.part:last-child {
+    nav div.part:nth-child(2) {
         width: 55%;
     }
 
@@ -435,6 +438,7 @@
 }
 
 @media (min-width: 993px) and (max-width: 1300px) {
+
     /* NavBar */
     nav .container {
         width: 85%;
@@ -444,7 +448,7 @@
         width: 20%;
     }
 
-    nav div.part:last-child {
+    nav div.part:nth-child(2) {
         width: 50%;
     }
 
@@ -573,7 +577,7 @@
         width: 20%;
     }
 
-    nav div.part:last-child {
+    nav div.part:nth-child(2) {
         width: 45%;
     }
 
